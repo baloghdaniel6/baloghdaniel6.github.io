@@ -1,172 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">   
-<title>Links website</title>
-<script src="https://unpkg.com/feather-icons"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="UTF-8">
+	 <link rel="stylesheet" href="style.css">
+	 <meta charset="utf8">
+	 <title>Zengő</title>
+</head>
+<body>
+    <div id="content" >
+	<h1>A Zengő hegy <sub><a href="https://hu.wikipedia.org/wiki/Zeng%C5%91_(hegy)" target="_blank">(Wikipedia)</a></sub></h1>
+        <div  id="imageright">
+        <a href="zengokilato.jpg" target="_blank"><img src="zengokilato.jpg" alt="Kilátó a Zengőn" title="Kilátó a Zengőn"></a>
+            <p class="kepszoveg">Kilátó a Zengőn</p>
+            </div>
+	<p>A Zengő a Mecsek legmagasabb hegye. Pécstől északkeleti irányban, a Kelet-Mecsek legkevésbé bolygatott tájain fekszik, magassága 682 méter. Déli szomszédja a Hosszúhetény fölé magasodó Hármashegy. Alkotó kőzetei a permi homokkő, a jura és triász mészkő. A hegy egyben Baranya megye legmagasabb pontja is.</p>
 
-<style>
+	<p>Nevének ma már ritkán használt helyi ejtésváltozata Zöngő, középkori neve Vas-hegy. A lábainál elterülő mai és egykori települések: Hosszúhetény, Kisújbánya, Pécsvárad, Pusztabánya, Püspökszentlászló, Zengővárkony, Zobákpuszta. A Zengőalja régiót települések ennél jóval szélesebb körére szokták értelmezni.</p>
 
-body {
-  background-image: url("https://www.w3schools.com/howto/img_link_tree_template3_bg.jpg"); /* The image used for background */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
+	<p>A hegyhez népmondák, legendák, népszokások sora kötődik. Nevét a népmonda azzal magyarázza, hogy a hegy zúgását a belsejében rekedt kincskeresők kiabálása okozza, mások szerint a hegy erdein és völgyein zenélő szél hangja lehet a név eredete.</p>
 
-.container {
-  width: 100%;
-  height: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+	<p>A Zengő oldalán, a híres zengővárkonyi szelídgesztenyésben van <b><i>Rockenbauer Pál</i></b> természetjáró, televíziós szerkesztő sírja. Ez az ország egyik legnagyobb és leghíresebb szelídgesztenye ligeterdeje, több száz éves példányokkal. </p>
+	<h2>A Zengőhöz kötődő mondák</h2>
+         <div  id="imageleft">
+             <a href="marevar.jpg" target="_blank"><img src="marevar.jpg" alt="Máré vára" title="Máré vára"></a>
+            <p class="kepszoveg">Máré vára</p>
+            </div>
+        <ul>
+            <li>Az egyik szerint a pécsváradi vár altemploma alól ősi alagút indul, ami felnyúlik egészen a Zengővárig. A néphagyomány szerint az alagút sokszor adott menedéket bujdosóknak, legutóbb az 1848-as forradalom üldözöttjeinek.[2]</li>
 
-.name {
-  margin-top: 15px !important;
-}
+            <li>A Zengő mondájaként ismert történet szerint minden évben egyszer, a virágvasárnapi mise idején megnyílik a hegy gyomra. A hegy felmorajlik, amit a bennrekedt kincskeresők kiabálása okoz, illetve azé a kincskereső asszonyé aki a hegy gyomrában felejtette a csecsemőjét és ettől megőrült. A monda szerint a hegynek tündére vagy szelleme is van. A morajlás után néhány napra a hagyomány szerint nagy szél, ítéletidő támad, amit csak a Püspökszentlászlón valamikor élt öreg remete harangja csillapíthat le.[6]</li>
 
-.w3-theme-d3 {
-  background-color: rgba(42, 169, 219, 0.6) !important;
-}
+            <li>A Zengővárt Miklósvár néven is ismeri a helyi hagyomány, és hozzá valamint a közelben lévő Márévárhoz kötődik az előzőekben már leírt szomorú legenda.</li>
 
-.w3-theme-d3:hover {
-  background-color: rgba(42, 169, 219, 0.8) !important;
-}
-
-a {
-  font-size: x-large;
-}
-
-.w3-border {
-  border: 3px solid #ccc !important;
-}
-
-.links-container {
-  display: flex;
-  flex-direction: column;
-  jusify-content: center;
-  align-items: center;
-}
-
-.links-container a {
-  width: 80%;
-}
-
-.profession {
-  font-size: 14px;
-}
-
-.subscribe {
-  font-size: 15px;
-}
-
-.submit form {
-  display: flex;
-  flex-direction: column;
-}
-
-.submit form button {
-  margin-top: 5px;
-  background-color: rgba(27, 122, 159, 0.9) !important;
-  color: #fff !important;
-}
-
-.submit form button:hover {
-  background-color: rgba(15, 67, 87, 0.9) !important;
-  color: #fff !important;
-}
-.submit form input {
-  width: 100% !important;
-}
-.submit form input::placeholder {
-  color: #fff;
-}
-
-.icons {
-  display: flex;
-  gap: 40px;
-}
-
-.icons a {
-  text-decoration: none;
-}
-
-.icons a svg {
-  fill: #d0ecf7;
-  transform: scale(1.5);
-}
-
-@media screen and (min-width: 768px) {
-  .link {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-
-  .profession {
-    font-size: 24px;
-  }
-}
-</style>
-  </head>
-
-  <body>
-    <!-- Content container -->
-    <div class="container">
-
-      <!-- Image and name container. Change to your picture here. -->
-      <div class="" style="text-align: center">
-        <img src="https://www.w3schools.com/howto/img_link_tree_template3_bio.jpg" class="w3-round" alt="person image" width="250px" height="200px" style="border-radius: 50%; border: 5px solid #4ab6e0 !important; margin-top: 16px;">
-        <p class="name"><br><span class="w3-padding w3-theme-l1 w3-margin w3-round" style="font-weight: bolder; font-size: x-large; border: 3px solid #1b7a9f;">Szia. Balogh Dániel vagyok!</span></p><br>
-        <p><span class="profession w3-padding w3-theme-d5 w3-round" style="font-weight: bolder; border: 3px solid #d0ecf7;">Hegymászó vagyok!</span></p><br>
-      </div>
-
-      <!-- Links section 1. Replace the # inside of the "" with your links. -->
-      <div class="links-container">
-        <a href="myclimbs/index.html" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank">MY CLIMBS</a>
-        <br>
-        <a href="mkutya/magyarkutyak.html" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank">MAGYAR KUTYAFAJTÁK<a>
-        <br>
-        <a href="zengohegy/zengohegy.html" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank">ZENGŐHEGY</a>
-        <br>
-        <a href="balatongyorok/balatongyorok.html" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank">BALATONGYÖRÖK<a>
-        <br>
-        <a href="Trolibusz/troli.html" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank">TROLIBUSZ</a><br>
-        <br>
-        <a href="honfoglalo/index.html" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank">HONFOGLALÓ</a><br>
-        <p><span class="subscribe w3-padding w3-theme-d5 w3-round" style="font-weight: bolder; border: 3px solid #d0ecf7;">Subscribe to my news!</span></p>
-        <div class="submit" style="width: 80%;">
-          <form>
-            <input class="w3-input w3-round w3-theme-d3 w3-border" type="text" placeholder="Your email . . . " name="email">
-            <button class="w3-button w3-round w3-border" type="submit">SUBSCRIBE</button>
-          </form>
-        </div><br>
-        <div class="icons w3-padding">
-          <a href="#" target="_blank">
-            <i data-feather="facebook"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i data-feather="instagram"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i data-feather="linkedin"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i data-feather="twitter"></i>
-          </a>
-        </div>
-      </div>
-
+            <li>Püspökszentlászló eredetmondája szerint Szent László király egy alkalommal amikor a Mecsekben vadászott, egy völgyben lelt menedéket ahol ennek emlékére kápolnát alapított, ami köré falucska nőtt. </li>
+            </ul>
+	<h2>A Zengő hegy nevezetességei</h2>
+        <ol>
+            <li>A Fájdalmas Anya, a Zengő Szentséges Csillaga búcsújáró helye Hosszúheténytől három kilométerre, Püspökszentlászló közelében – apró kápolna Kis György faragott fehér mészkő Fájdalmas Szűz Piéta szobrával.</li>
+            <li>A bárányles keresztje a Püspökszentlászló felőli oldalon.</li>
+            <li>A püspökszentlászlói püspöki kastély (ahol valamikor Mindszenty Józsefet tartották fogva), arborétum és a Vácz Jenő alapította Életrendezés Háza</li>
+            <li>A kastély fölötti Szent László-szobor (Csukás Zoltán 1903-as alkotása)</li>
+            <li>A pusztabányai üveghuta-maradványok</li>
+            <li>A hosszúhetényi borbélymúzeum és az üvegmúzeum</li>
+            <li>A hosszúhetényi tájház</li>
+            <li>A hosszúhetényi pincefalu</li>
+            <li>Bocz Gyula köztéri szobrai Hosszúhetényben, köztük a Hetény vezér</li>
+            <li>Máriakép a hosszúhetényi völgyben</li>
+            <li>A zengővárkonyi szelídgesztenyés</li>
+            <li>A zengővárkonyi szalmamúzeum, Míves Tojás Gyűjtemény és tájház</li>
+            <li>A Zengő-kilátó a természetes környezettel kontrasztban álló látványt nyújtó beton torony, de a tetejéről szép panoráma nyílik a Mecsekre. 1978-ban készült geodéziai mérőtoronynak. Az első kilátót ezen a helyen 1895. június 23-án avatták. Terstyánszky László közalapítványi főerdész támogatásával épült, később azonban összedőlt. A helyén 1929-ben a Földművelésügyi Minisztérium állíttatott új tornyot.</li>
+            </ol>
     </div>
-    <script>
-      feather.replace()
-    </script>
-  </body>  </html>
+</body>
+</html>

@@ -36,7 +36,6 @@ p{
   border: 2px solid red;
   border-radius: 15px;
   margin: 10px 0px 20px;
-  float: right;
 }
 
 #magyarazat ol li{
@@ -52,20 +51,10 @@ p{
   z-index: 99; 
   border: none;
   outline: none;
-  background-color: red;
-  
+  background-color: #555;
   color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius: 10px;
-
-  }
-  #felGomb:hover{
-    background-color: #555;
-  }
-
-  #trolo{
-    width: auto;
-    height: auto;
+  border-radius: 10px; 
   }
 
